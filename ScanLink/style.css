@@ -1,1 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.logo{
+    font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #161B22;
+}
+#menu{
+    height: 4.688rem;
+    background-color: #30302E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border-bottom: 0.063rem solid white;
+}
+#menu span{
+    color: #58E5B0;
+}
+#menu h1{
+    color: #E6EDF3;
+}
+.titulo{
+  text-align: center;
 
+}
+.titulo p{
+    color: #58E5B0;
+    margin: 1rem 0 0.5rem 0 ;
+    font-size: 1.5rem;
+}
+.titulo h3{
+    color: #E6EDF3;
+    font-size: 2rem;
+}
+.funcao{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.funcao input{
+    width: 35rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: #30302E;
+    font-size: 1.5rem;
+    color: #58E5B0;
+}
+.funcao img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem
+}
+.funcao button{
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5rem;
+    background-color: #58E5B0;
+    color: #161B22;
+    font-weight: 700;
+}
